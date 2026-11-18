@@ -1,0 +1,25 @@
+---
+title: "Sentiment Analysis"
+author: "Renee Watson"
+date: "2026-11-15"
+format:
+  html:
+    toc: true
+    code-fold: false
+execute:
+  warning: false
+  message: false
+---
+# Sentiment Analysis
+
+## Approach
+
+In this assignment, I plan to reproduce the sentiment analysis example from Chapter 2 of Text Mining with R using Jane Austen's novels. I will then extend the analysis by examining Mary Shelley's Frankenstein, which is available through Project Gutenberg. I will use R and the tidytext package to organize the text into individual words and analyze sentiment using the Bing, NRC, and AFINN lexicons. I will also introduce the Loughran lexicon to compare how different sentiment dictionaries classify positive and negative words. I plan to create visualizations showing changes in sentiment throughout the novel and identify the most frequently occurring positive and negative words.
+
+One challenge I anticipate is that sentiment dictionaries may classify the same words differently. Additionally, these methods do not always consider the context in which words are used, which could affect the results. Since the Loughran lexicon was developed for financial text it may not accurately capture sentiment in a literary novel. My goal is to compare the findings with the original Jane Austen example and examine how the choice of text and sentiment lexicon influences the results. 
+
+Data Sources: Text Mining with R, Chapter 2: https://www.tidytextmining.com/sentiment
+              Project Gutenberg, Frankenstein
+              
+References: Silge, J., & Robinson, D. (2017). Text Mining with R: A Tidy Approach. O'Reilly Media. https://www.tidytextmining.com/
+            Shelley, M. (1818). Frankenstein; or, The Modern Prometheus. Project Gutenberg. 
